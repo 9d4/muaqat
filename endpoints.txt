@@ -38,7 +38,7 @@
 /api/vhosts/name/permissions
 /api/vhosts/name/topic_permissions
 /api/vhosts/name/start/node
-/api/users/
+/api/users
 /api/users/without_permissions
 /api/users/bulk_delete
 /api/users/name

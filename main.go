@@ -21,16 +21,22 @@ func main() {
 			break
 		}
 
+		line = strings.ReplaceAll(line, string('\n'), "")
 		s := strings.Split(line, "/")
 
+		final := ""
 		for i, word := range s {
 			if i == 0 {
 				continue
 			}
 
 			f := strings.ToUpper(string(word[0]))
-			final := f + word[1:]
-			fmt.Print(final)
+			final += f + word[1:]
 		}
+
+		final += " = " + "\"" + line + "\""
+
+		fmt.Println(final)
+		// break
 	}
 }
