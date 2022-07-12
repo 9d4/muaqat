@@ -1,3 +1,3 @@
-module github.com/9d4/muaqat
+module github.com/traperwaze/muaqat
 
 go 1.17
